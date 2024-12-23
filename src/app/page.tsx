@@ -48,7 +48,11 @@ export default function Home() {
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <Button variant="default" asChild>
-            <Link href={"/"}>Use Template</Link>
+            <Link
+              href={"https://github.com/chanchal16/nextjs-shadcn-boilerplate"}
+            >
+              Use Template
+            </Link>
           </Button>
         </div>
       </main>
